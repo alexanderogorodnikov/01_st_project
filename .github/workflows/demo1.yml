@@ -10,6 +10,7 @@ on:
     branches:
       - main
       - 'dev-*' # dev-new, dev-other-new
+      - 'dev*' # dev-new, dev-other-new
       - 'feat/**' #feat/new/ feat/new/button
     paths-ignore:
       '.github/workflows/*'
